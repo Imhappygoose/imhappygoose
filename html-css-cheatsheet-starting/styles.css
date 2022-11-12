@@ -1,0 +1,42 @@
+* {
+	font-family: monospace, sans-serif;
+	background-color: whitesmoke;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: forestgreen;
+}
+
+table {
+	margin: auto;
+	width: 70%;
+}
+
+table, td, th {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+th {
+	padding: 8px;
+	font-weight: bold;
+	background-color: forestgreen;
+}
+
+td {
+	padding: 8px;
+}
+
+code {
+	background-color: snow;
+}
+
+td.property {
+	text-align: center;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+	<title>
+		CSS Positioning and Display
+	</title>
+</head>
+<body>
+	<header>
+		<h1>CSS Positioning and Display Cheat Sheet</h1>
+	</header>
+	<section class="positioning">
+		<h2 class="table-header">Positioning Properties</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Property</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="property"><code>static</code></td>
+					<td>Default value. Element is a part of normal flow. <code>top</code>, <code>right</code>, <code>down</code>, <code>left</code> do not affect an element's position.</td>
+				</tr>
+				<tr>
+					<td class="property"><code>relative</code></td>
+					<td>Same positioning as <code>static</code>, but <code>top</code>, <code>right</code>, <code>down</code>, <code>left</code> affect an element's position.</td>
+				</tr>
+				<tr>
+					<td class="property"><code>absolute</code></td>
+					<td>The element is removed from the normal document flow. <code>top</code>, <code>right</code>, <code>down</code>, <code>left</code> define the element's position. Starting position is relative to parent element's position.</td>
+				</tr>
+				<tr>
+					<td class="property"><code>fixed</code></td>
+					<td>The element is removed from the normal document flow. Element remains in same position even when you scroll down the webpage. <code>top</code>, <code>right</code>, <code>down</code>, <code>left</code> define the element's position.</td>
+				</tr>
+				<tr>
+					<td class="property"><code>sticky</code></td>
+					<td>The element sticks to the top of the scrollable block. When you scroll the parent element down, child with <code>sticky</code> attribute stays at top of the parent element. <code>top</code>, <code>right</code>, <code>down</code>, <code>left</code> define the element's position.</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section class="display">
+		<h2 class="display-header">Display Properties</h2>
+		<table>
+			<thead>
+				<tr>
+					<th class="property">Property</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="property"><code>inline</code></td>
+					<td>Displays an element as an inline element, same as <code>&lt;span&gt;</code>. Height and width properties have no effect.</td>
+				</tr>
+				<tr>
+					<td class="property"><code>block</code></td>
+					<td>Displays an element as a block element, like <code>&lt;h1&gt;</code>. Starts on a new line and takes full width.</td>
+				</tr>
+				<tr>
+					<td class="property"><code>inline-block</code></td>
+					<td>Displays an element as an inline-block container. The element is formatted as an inline element but can be modified with height and width.</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</body>
+</html>
